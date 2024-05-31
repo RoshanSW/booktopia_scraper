@@ -41,13 +41,12 @@ ISBN13
     ```
 3. Run the Scrapy spider:
    ```bash
-    scrapy crawl booktopia   
+   scrapy crawl booktopia   
     ```
    #### Example :
    **To extra save file**
    ```bash
-    scrapy crawl booktopia -o scrap_data.csv
-      
+   scrapy crawl booktopia -o scrap_data.csv      
    ```
 4. **Output:** The scraped data will be saved in output.csv in the project directory.
 
